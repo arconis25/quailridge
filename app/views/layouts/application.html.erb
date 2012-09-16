@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Quailridge</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
+  <title><%= title %></title>
   <%= csrf_meta_tag %>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+  <![endif]-->
+  <%= stylesheet_link_tag    "style", :media => "all" %>
+  <%= javascript_include_tag "application" %>
 </head>
 <body>
+<!-- wrap starts here -->
+<div id="wrap">
+
+<div id="header"><div id="header-content">
+
+<h1 id="logo">Quailridge Plantation</h1>
+<h2 id="slogan">Norman Park, GA </h2>
+
+<!-- Menu Tabs -->
+<ul>
+<li><%= link_to "Home", home_path %></li>
+<li><%= link_to "Lodging", lodging_path %></li>
+<li><%= link_to "Hunting", hunting_path %></li>
+<li><%= link_to "Reservations", reservations_path %></li>
+<li><%= link_to "Shop", store_path %></li>
+</ul>
+
+</div></div>
+
+<div id="headerphotos"> 
+<ul>
+<li><%= image_tag("quailridge_small5.jpg", :class => "round") %> 
+<li><%= image_tag("quailridge_small6.jpg", :class => "round") %> 
+<li><%= image_tag("quailridge_small7.jpg", :class => "round") %> 
+</div>
 
 <%= yield %>
+
+<div id="footer"><div id="footer-content">
+<div class="col2 float-left">
+<p>
+&copy; copyright 2012 <strong>Quailridge LLC</strong> | Email us at <strong><%= mail_to "quailridge@windstream.net" %></strong>
+</p>
+</div>
+
+</div></div>
+<!-- footer ends here -->
+
+<!-- wrap ends here -->
+</div>
 
 </body>
 </html>

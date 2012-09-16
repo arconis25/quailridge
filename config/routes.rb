@@ -1,13 +1,17 @@
 Quailridge::Application.routes.draw do
-  get "pages/home"
-
-  get "pages/hunting"
-
-  get "pages/lodging"
-
-  get "pages/reservations"
-
-  get "pages/store"
+    match '/home', :to => 'pages#home'
+    match '/lodging', :to => 'pages#lodging'
+    match '/hunting', :to => 'pages#hunting'
+    match '/reservations', :to => 'pages#reservations'
+    match '/store', :to => 'pages#store'
+    
+    root :to => 'pages#home'
+    
+    get "pages/home"
+    get "page/lodging"
+    get "pages/hunting"
+    get "pages/reservations"
+    get "pages/store"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -1,4 +1,14 @@
 Quailridge::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/hunting"
+
+  get "pages/lodging"
+
+  get "pages/reservations"
+
+  get "pages/store"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -204,7 +204,7 @@ input.button {
 	margin: 0; padding: 0;
 	
 	/* change the values of left and top to adjust the position of the slogan */
-	top: 60px; left: 50px;
+	top: 60px; left: 0px;
 }
 
 /* header menu */

@@ -15,7 +15,7 @@ a:hover { background: inherit; color: #006699; text-decoration: underline; }
 
 /* headers */
 h1, h2, h3 { font: bold 1em 'Trebuchet MS', Tahoma, Sans-serif; }
-h1 { font-size: 1.4em; color: #65944A; }
+h1 { font-size: 1.4em; color: #483E37; }
 h2 { font-size: 1.2em; text-transform: uppercase; }
 h3 { font-size: 1.2em; }
 
@@ -76,7 +76,7 @@ th strong {
 	color: #fff;
 }
 th {
-	background: #74A846;
+	background: #483E37;
 	height: 29px;
 	padding-left: 11px;
 	padding-right: 11px;
@@ -219,23 +219,26 @@ input.button {
 #header-content li {
 	display: inline;
 }
+
+#header-content #current li a   {
+	background: #B5A89F;
+	color: #FFF;
+}
+
 #header-content li a {
 	float: left;
 	display: block;
 	padding: 3px 20px;	
 	color: #FFF;
-	background-color: #333;
+	background-color: #483E37;
 	text-decoration: none;
-	border-right: 1px solid #272727;
+	border-right: 1px solid #483E37;
 }
 #header-content li a:hover {
-	background: #65944A;
+	background: #B5A89F;
 	color: #FFFf;
 }
-#header-content li a#current  {
-	background: #65944A;
-	color: #FFF;
-}
+
 
 /* header photo */
 .headerphoto {
@@ -305,7 +308,7 @@ input.button {
 #sidebar ul.sidemenu a {
 	display:block;
 	font-weight:normal;
-	color: #333;
+	color: #483E37;
 	height: 1.5em;	
 	padding:.3em 0 .3em 15px;
 	line-height: 1.5em;

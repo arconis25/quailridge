@@ -349,6 +349,15 @@ input.button {
     padding: 0px 0px 0px 25px;
 }
 
+#main ul.nobulletbig {
+    padding: 10px 10px 10px 0px;
+    width: 100%;
+}
+#main ul.nobulletbig li {
+	display: inline;
+    padding: 0px 0px 0px 0px;
+}
+
 .post {
 	margin: 0; padding: 0;
 	background: #FFF url(images/gradientbg.jpg) repeat-x;

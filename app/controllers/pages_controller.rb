@@ -17,6 +17,6 @@ class PagesController < ApplicationController
 
   def store
       @title = "Store"
-      redirect_to "http://www.shopify.com"
+      redirect_to "http://quailridge.myshopify.com/"
   end
 end

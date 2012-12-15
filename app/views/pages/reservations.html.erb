@@ -4,6 +4,7 @@
 <li><%= link_to "Lodging", lodging_path %></li>
 <li><%= link_to "Hunting", hunting_path %></li>
 <li><%= link_to "Reservations", reservations_path %></li>
+<li><%= link_to "Videos", videos_path %></li>
 <li><%= link_to "Shop", store_path %></li>
 </ul>
 
@@ -60,7 +61,7 @@
             <div class="post">
             <h1>Rate Schedule</h1>
 
-                <h2>Downloadable Rate Scheudle</h2>
+                <h2><%=link_to("Downloadable Rate Scheudle","/rates.pdf") %></h2>
                 
                 <h2>Rates for the 2012-2013 Hunting Season:</h2>
                 <p>

@@ -1,9 +1,12 @@
 Quailridge::Application.routes.draw do
+  get "files/rates"
+
     match '/home', :to => 'pages#home'
     match '/lodging', :to => 'pages#lodging'
     match '/hunting', :to => 'pages#hunting'
     match '/reservations', :to => 'pages#reservations'
     match '/store', :to => 'pages#store'
+    match '/videos', :to => 'pages#videos'
     
     root :to => 'pages#home'
     
@@ -12,6 +15,7 @@ Quailridge::Application.routes.draw do
     get "pages/hunting"
     get "pages/reservations"
     get "pages/store"
+    get "pages/videos"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

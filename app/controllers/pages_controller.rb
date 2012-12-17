@@ -1,22 +1,26 @@
 class PagesController < ApplicationController
   def home
-      @title = "Home"
+      @title = "Quailridge | Home"
   end
     
   def lodging
-      @title = "Lodging"
+      @title = "Quailridge | Lodging"
   end
 
   def hunting
-      @title = "Hunting"
+      @title = "Quailridge | Hunting"
   end
 
   def reservations
-      @title = "Reservations"
+      @title = "Quailridge | Reservations"
   end
 
   def store
-      @title = "Store"
+      @title = "Quailridge | Store"
       redirect_to "http://quailridge.myshopify.com/"
+  end
+    
+  def videos
+      @title= "Quailridge | Videos"
   end
 end

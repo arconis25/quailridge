@@ -1,0 +1,89 @@
+<!-- Menu Tabs -->
+<ul>
+<li><%= link_to "Home", home_path %></li>
+<li><%= link_to "Lodging", lodging_path %></li>
+<li><%= link_to "Hunting", hunting_path %></li>
+<li><%= link_to "Reservations", reservations_path %></li>
+<li><%= link_to "Videos", videos_path %></li>
+<li><%= link_to "Shop", store_path %></li>
+</ul>
+
+</div></div>
+
+<div id="headerphotos"> 
+<ul>
+<li><%= image_tag("quailridge_small19.jpg", :class => "round") %> 
+<li><%= image_tag("quailridge_small21.jpg", :class => "round") %> 
+<li><%= image_tag("quailridge_small20.jpg", :class => "round") %> 
+</div>
+
+
+<div id="content-wrap"><div id="content">
+		
+		<div id="sidebar" >
+        
+            <div class="fb-like" data-href="https://www.facebook.com/pages/Quailridge-Plantation/340892476040650?fref=ts" data-send="false" data-width="250" data-show-faces="false"></div>
+		
+			<div class="sidebox">
+			
+				<h1>Physical Address</h1>
+				<p>
+                Quailridge Plantation<br>
+                3281 Moye Road<br>
+                Moultrie, Georgia, 31768
+                </p>
+                
+                <h1>Mailing Address</h1>
+				<p>
+                Quailridge Plantation<br>
+                P.O. Box 155<br>
+                Norman Park, Georgia, 31771
+                </p>
+                
+                <h1>Reservations or Questions?</h1>
+				<p>
+                <Strong>John or Edwin Norman</strong><br>
+                <strong>Lodge Phone/Fax:</strong> (229) 985-5011<br>
+                <strong>Email:</strong> <%= mail_to "quailridge@windstream.net" %>
+                </p>
+						
+			</div>
+					
+		</div>	
+	
+<div id="main">
+
+
+<div class="post">
+<h1>Quail Hunting at Quailridge Plantation</h1>
+<p align="center">
+<iframe width="420" height="315" src="//www.youtube.com/embed/-_526hm5shk" frameborder="0" allowfullscreen></iframe>
+</p>
+</div>	
+
+<div class="post">
+<h1>View a Video of a Typical Hunt</h1>
+<p align="center">
+<%= link_to(image_tag("Play1.png", :class => "round"), "http://www.eventstreams.com/quailridge/010/") %>
+</p>
+</div>	
+
+<div class="post">
+<h1>View a Video of Our Lodgings</h1>
+<p align="center">
+<%= link_to(image_tag("Play2.png", :class => "round"), "http://www.eventstreams.com/quailridge/011/") %>
+</p>
+</div>		
+
+<div class="post">
+<h1>November 24th - Steve and Blake Flushing a Covey</h1>
+<p align="center">
+<iframe width="560" height="315" src="http://www.youtube.com/embed/N3yF7ZSA5xY" frameborder="0" allowfullscreen></iframe>
+</p>
+</div>				
+
+			
+		</div>					
+		
+	<!-- content-wrap ends here -->		
+	</div></div>

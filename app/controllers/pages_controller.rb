@@ -23,4 +23,8 @@ class PagesController < ApplicationController
   def videos
       @title= "Quailridge | Videos"
   end
+    
+  def promo
+      @title = "Quailridge | Promotional Offers"
+  end
 end

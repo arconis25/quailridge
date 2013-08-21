@@ -1,0 +1,71 @@
+<!-- Menu Tabs -->
+<ul>
+<li><%= link_to "Home", home_path %></li>
+<li><%= link_to "Lodging", lodging_path %></li>
+<li><%= link_to "Hunting", hunting_path %></li>
+<li><%= link_to "Reservations", reservations_path %></li>
+<li><%= link_to "Videos", videos_path %></li>
+<li><%= link_to "Shop", store_path %></li>
+</ul>
+
+</div></div>
+
+<div id="headerphotos"> 
+<ul>
+<li><%= image_tag("quailridge_small21.jpg", :class => "round") %> 
+<li><%= image_tag("quailridge_small17.jpg", :class => "round") %> 
+<li><%= image_tag("quailridge_small19.jpg", :class => "round") %> 
+</div>
+
+<div id="content-wrap"><div id="content">		
+		
+		<div id="sidebar" >
+        
+            <div class="fb-like" data-href="https://www.facebook.com/pages/Quailridge-Plantation/340892476040650?fref=ts" data-send="false" data-width="250" data-show-faces="false"></div>
+
+		
+			<div class="sidebox">
+			
+				<h1>Physical Address</h1>
+				<p>
+                Quailridge Plantation<br>
+                3281 Moye Road<br>
+                Moultrie, Georgia, 31768
+                </p>
+                
+                <h1>Mailing Address</h1>
+				<p>
+                Quailridge Plantation<br>
+                P.O. Box 155<br>
+                Norman Park, Georgia, 31771
+                </p>
+                
+                <h1>Reservations or Questions?</h1>
+				<p>
+                <Strong>John or Edwin Norman</strong><br>
+                <strong>Lodge Phone/Fax:</strong> (229) 985-5011<br>
+                <strong>Email:</strong> <%= mail_to "quailridge@windstream.net" %>
+                </p>	
+                
+                
+			</div>
+					
+		</div>	
+	
+		<div id="main">		
+		
+				<a name="TemplateInfo"></a>	
+				<h1>Promotional Landing Page</h1>
+				<p>
+                    Watch for updates to this page for limited time offers and promotions
+                </p>
+                  
+            <div class="post">
+            <h1>Rate Schedule</h1>
+
+                <h2><%=link_to("Downloadable Rate Scheudle","/rates.pdf") %></h2>
+			
+		</div>	
+		
+	<!-- content-wrap ends here -->		
+	</div></div>

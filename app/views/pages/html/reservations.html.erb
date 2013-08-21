@@ -1,0 +1,238 @@
+<!-- Menu Tabs -->
+<ul>
+<li><%= link_to "Home", home_path %></li>
+<li><%= link_to "Lodging", lodging_path %></li>
+<li><%= link_to "Hunting", hunting_path %></li>
+<li><%= link_to "Reservations", reservations_path %></li>
+<li><%= link_to "Videos", videos_path %></li>
+<li><%= link_to "Shop", store_path %></li>
+</ul>
+
+</div></div>
+
+<div id="headerphotos"> 
+<ul>
+<li><%= image_tag("quailridge_small14.jpg", :class => "round") %> 
+<li><%= image_tag("quailridge_small22.jpg", :class => "round") %> 
+<li><%= image_tag("quailridge_small17.jpg", :class => "round") %> 
+</div>
+
+<div id="content-wrap"><div id="content">		
+		
+		<div id="sidebar" >
+        
+            <div class="fb-like" data-href="https://www.facebook.com/pages/Quailridge-Plantation/340892476040650?fref=ts" data-send="false" data-width="250" data-show-faces="false"></div>
+
+		
+			<div class="sidebox">
+			
+				<h1>Physical Address</h1>
+				<p>
+                Quailridge Plantation<br>
+                3281 Moye Road<br>
+                Moultrie, Georgia, 31768
+                </p>
+                
+                <h1>Mailing Address</h1>
+				<p>
+                Quailridge Plantation<br>
+                P.O. Box 155<br>
+                Norman Park, Georgia, 31771
+                </p>
+                
+                <h1>Reservations or Questions?</h1>
+				<p>
+                <Strong>John or Edwin Norman</strong><br>
+                <strong>Lodge Phone/Fax:</strong> (229) 985-5011<br>
+                <strong>Email:</strong> <%= mail_to "quailridge@windstream.net" %>
+                </p>	
+                
+                
+			</div>
+					
+		</div>	
+	
+		<div id="main">		
+		
+				<a name="TemplateInfo"></a>	
+				<h1>Reserve Your Stay at Quailridge</h1>
+				<p>
+                Quailridge Plantation is here to make your hunting experience special.  We can help with all the details from the time you arrive at an area airport or drive up our road.  This allows you to concentrate on the hunting and the fellowship with your hunting partners.
+
+                </p>
+                  
+            <div class="post">
+            <h1>Rate Schedule</h1>
+
+                <h2><%=link_to("Downloadable Rate Scheudle","/rates.pdf") %></h2>
+                
+                <h2>Rates for the 2012-2013 Hunting Season:</h2>
+                <p>
+                <table>
+                <tr>
+                    <th class="first"><strong>Description</strong></th>
+                    <th> Price </th>
+                </tr>
+                
+                <tr class="row-a">
+                    <td class="first">
+                    Full days hunting including meals, lodging the night before your hunt, specially equipped jeeps, guide, and dogs, with privilege to bag 12 birds
+                    </td>
+                    <td>
+                    $770.00
+                    </td>
+                </tr>
+                
+                <tr class="row-b">
+                    <td class="first">
+                    Full days hunting including noon meal, specially equipped jeeps, guide, and dogs, with privilege to bag 12 birds
+                    </td>
+                    <td>
+                    $700.00
+                    </td>
+                </tr>
+                
+                <tr class="row-a">
+                    <td class="first">
+                    Deposit required per hunter per day<br>
+                    <i>(Deposit refundable with 45 days notice of cancellation)</i>
+                    </td>
+                    <td>
+                    $300.00
+                    </td>
+                </tr>
+                
+                <tr class="row-b">
+                    <td class="first">
+                    Non-shooter guest or spouse
+                    </td>
+                    <td>
+                    $125.00
+                    </td>
+                </tr>
+                
+                <tr class="row-a">
+                    <td class="first">
+                    Extra night's lodging including breakfast
+                    </td>
+                    <td>
+                    $125.00
+                    </td>
+                </tr>
+                
+                <tr class="row-b">
+                    <td class="first">
+                    Extra evening meal
+                    </td>
+                    <td>
+                    $30.00
+                    </td>
+                </tr>
+                
+                <tr class="row-a">
+                    <td class="first">
+                    Birds, dressed, packaged, and frozen
+                    </td>
+                    <td>
+                    $.80
+                    </td>
+                </tr>
+                
+                <tr class="row-b">
+                    <td class="first">
+                    Trap shooting per round
+                    </td>
+                    <td>
+                    $10.00
+                    </td>
+                </tr>
+                
+                <tr class="row-a">
+                    <td class="first">
+                    Sporting clays per round
+                    </td>
+                    <td>
+                    $10.00
+                    </td>
+                </tr>
+                
+                <tr class="row-b">
+                    <td class="first">
+                    Guns for rent per day
+                    </td>
+                    <td>
+                    $25.00
+                    </td>
+                </tr>
+                
+                <tr class="row-a">
+                    <td class="first">
+                    Shells (all gauges) per box
+                    </td>
+                    <td>
+                    $9.00 - $16.00
+                    </td>
+                </tr>
+                
+                <tr class="row-b">
+                    <td class="first">
+                    License: Non-resident Preserve
+                    </td>
+                    <td>
+                    $12.00
+                    </td>
+                </tr>
+                
+                <tr class="row-a">
+                    <td class="first">
+                    License: Resident
+                    </td>
+                    <td>
+                    State Hunting License
+                    </td>
+                </tr>
+                
+                <tr class="row-b">
+                    <td class="first">
+                    Extra birds in excess of twelve birds
+                    </td>
+                    <td>
+                    $7.75
+                    </td>
+                </tr>
+                
+                <tr class="row-a">
+                    <td class="first">
+                    Moultrie Airport-Round Trip per car
+                    </td>
+                    <td>
+                    $125.00
+                    </td>
+                </tr>
+                
+                <tr class="row-b">
+                    <td class="first">
+                    Albany Airport-Round Trip per car
+                    </td>
+                    <td>
+                    $150.00
+                    </td>
+                </tr>
+                
+                <tr class="row-a">
+                    <td class="first">
+                    State Sales Tax
+                    </td>
+                    <td>
+                    7%
+                    </td>
+                </tr>
+                </table>
+                </p>
+                </div>                
+			</div>
+			
+		</div>	
+		
+	<!-- content-wrap ends here -->		
+	</div></div>

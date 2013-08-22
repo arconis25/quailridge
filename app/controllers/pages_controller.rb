@@ -27,4 +27,12 @@ class PagesController < ApplicationController
   def promo
       @title = "Quailridge | Promotional Offers"
   end
+    
+  def privacy
+      @title = "Quailridge | Privacy Policy"
+  end
+    
+  def terms
+      @title = "Quailridge | Terms of Use"
+  end
 end

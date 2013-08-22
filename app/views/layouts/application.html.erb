@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  
   <title><%= @title %></title>
   <%= csrf_meta_tag %>
   <!--[if lt IE 9]>
@@ -8,6 +9,7 @@
   <![endif]-->
   <%= stylesheet_link_tag    "style", :media => "all" %>
   <%= javascript_include_tag "application" %>
+
 </head>
 <body>
 <div id="fb-root"></div>
@@ -26,12 +28,24 @@
 <h1 id="logo">Quailridge Plantation</h1>
 <h2 id="slogan">A Family Operated Bobwhite Quail Hunting Plantation- Southern Style</h2>
 
+<!-- Menu Tabs -->
+<ul>
+<li><%= link_to "Home", home_path %></li>
+<li><%= link_to "Lodging", lodging_path %></li>
+<li><%= link_to "Hunting", hunting_path %></li>
+<li><%= link_to "Reservations", reservations_path %></li>
+<li><%= link_to "Videos", videos_path %></li>
+<li><%= link_to "Shop", store_path %></li>
+</ul>
+
+</div></div>
+
 <%= yield %>
 
 <div id="footer"><div id="footer-content">
 <div class="col2 float-left">
 <p>
-&copy; copyright 2012 <strong>Quailridge LLC</strong> | Email us at <strong><%= mail_to "quailridge@windstream.net" %></strong>
+&copy; copyright 2012 <strong>Quailridge LLC</strong> | Email us at <strong><%= mail_to "quailridge@windstream.net" %> | <%= link_to "Privacy Policy", privacy_path %> | <%= link_to "Terms of Use", terms_path %></strong>
 </p>
 </div>
 
@@ -66,6 +80,8 @@
   ga('send', 'pageview');
 
 </script>
+<!-- Google Analytics Code Ends Here-->
+
 
 </body>
 </html>

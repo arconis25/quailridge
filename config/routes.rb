@@ -8,6 +8,8 @@ Quailridge::Application.routes.draw do
     match '/store', :to => 'pages#store'
     match '/videos', :to => 'pages#videos'
     match '/promo', :to => 'pages#promo'
+    match '/privacy', :to => 'pages#privacy'
+    match '/terms', :to => 'pages#terms'
     
     root :to => 'pages#home'
     
@@ -18,6 +20,8 @@ Quailridge::Application.routes.draw do
     get "pages/store"
     get "pages/videos"
     get "pages/promo"
+    get "pages/privacy"
+    get "pages/terms"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

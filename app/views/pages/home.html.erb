@@ -1,14 +1,3 @@
-<!-- Menu Tabs -->
-<ul>
-<li><%= link_to "Home", home_path %></li>
-<li><%= link_to "Lodging", lodging_path %></li>
-<li><%= link_to "Hunting", hunting_path %></li>
-<li><%= link_to "Reservations", reservations_path %></li>
-<li><%= link_to "Videos", videos_path %></li>
-<li><%= link_to "Shop", store_path %></li>
-</ul>
-
-</div></div>
 
 <div id="headerphotos"> 
 <ul>
@@ -20,41 +9,11 @@
 
 <div id="content-wrap"><div id="content">
 		
-		<div id="sidebar" >
-        
-            <div class="fb-like" data-href="https://www.facebook.com/pages/Quailridge-Plantation/340892476040650?fref=ts" data-send="false" data-width="250" data-show-faces="false"></div>
-
-		
-			<div class="sidebox">
-			
-				<h1>Physical Address</h1>
-				<p>
-                Quailridge Plantation<br>
-                3281 Moye Road<br>
-                Moultrie, Georgia, 31768
-                </p>
-                
-                <h1>Mailing Address</h1>
-				<p>
-                Quailridge Plantation<br>
-                P.O. Box 155<br>
-                Norman Park, Georgia, 31771
-                </p>
-                
-                <h1>Reservations or Questions?</h1>
-				<p>
-                <Strong>John or Edwin Norman</strong><br>
-                <strong>Lodge Phone/Fax:</strong> (229) 985-5011<br>
-                <strong>Email:</strong> <%= mail_to "quailridge@windstream.net" %>
-                </p>
-						
-			</div>
-					
-		</div>	
+<%= render "shared/sidebar" %>	
 	
-		<div id="main">		
+<div id="main">		
 		
-			<div class="post">
+<div class="post">
 
 <h1>Welcome to Quailridge: A Letter From Edwin</h1>
 <p>
@@ -84,8 +43,6 @@ Edwin Norman
 </p>
 				
 			</div>
-			
-		</div>					
-		
-	<!-- content-wrap ends here -->		
-	</div></div>
+		</div>
+	</div>    
+</div>

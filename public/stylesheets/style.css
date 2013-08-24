@@ -281,16 +281,17 @@ input.button {
 	margin: 0 0 10px 0; padding: 0;	
 }	
 #sidebar h1 {
-	padding: 10px 0px 5px 10px;
+	padding: 10px 0px 10px 10px;
 	margin: 0;	
-	font: bold 1.3em 'Trebuchet MS', Tahoma, Sans-serif;
+	font: bold 1.9em 'Trebuchet MS', Tahoma, Sans-serif;
+    color: #FFF;
 }
 
 #sidebar p {
 	margin: 0px 15px;
 }
 .sidebox {
-	background: #F5F5F5;
+	background: #483E37;
 	border: 1px solid #EFEDED;
 	margin-bottom: 10px;
 }

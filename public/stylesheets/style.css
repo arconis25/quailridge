@@ -29,8 +29,8 @@ ul, ol {
 
 /* images */
 img {
-	border: 1px solid #DADADA;
-	padding: 5px;
+	border: 0px solid #DADADA;
+	padding: 0px;
 	background: #FAFAFA;
 }
 img.float-right {

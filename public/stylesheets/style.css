@@ -29,8 +29,8 @@ ul, ol {
 
 /* images */
 img {
-	border: 0px solid #DADADA;
-	padding: 0px;
+	border: 1px solid #DADADA;
+	padding: 5px;
 	background: #FAFAFA;
 }
 img.float-right {
@@ -298,6 +298,12 @@ input.button {
 	background: #483E37;
 	border: 1px solid #EFEDED;
 	margin-bottom: 10px;
+}
+
+#sidebar img {
+	border: 0px solid #DADADA;
+	padding: 0px;
+	background: #FAFAFA;
 }
 
 /* sidebar menu */

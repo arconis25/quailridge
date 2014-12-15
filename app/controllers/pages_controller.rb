@@ -1,14 +1,11 @@
 class PagesController < ApplicationController
-  def home
-      @title = "Quailridge | Home"
-  end
-    
-  def lodging
-      @title = "Quailridge | Lodging"
-  end
-
+  
   def hunting
       @title = "Quailridge | Hunting"
+  end
+  
+  def lodging
+      @title = "Quailridge | Lodging"
   end
 
   def reservations
@@ -23,7 +20,11 @@ class PagesController < ApplicationController
   def videos
       @title= "Quailridge | Videos"
   end
-    
+  
+  def blog
+      @title = "Quailridge | Blog"
+  end
+  
   def promo
       @title = "Quailridge | Promotional Offers"
   end
@@ -35,4 +36,9 @@ class PagesController < ApplicationController
   def terms
       @title = "Quailridge | Terms of Use"
   end
+  
+  def home
+      @title = "Quailridge | Home"
+  end
+
 end
